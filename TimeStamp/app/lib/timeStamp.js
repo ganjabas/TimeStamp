@@ -20,7 +20,7 @@ exports.addTimeStamp = function(collection) {
 	var seconds = currentTime.getSeconds();
 	var month = currentTime.getMonth() + 1;
 	var day = currentTime.getDate();
-	var year = currentTime.getFullYear();
+	var year = currentTime.getFullYear(); 
 
 	if (hours < 10) {
 		hours = "0" + hours;
