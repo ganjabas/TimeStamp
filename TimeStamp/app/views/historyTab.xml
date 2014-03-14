@@ -1,0 +1,10 @@
+<Alloy>
+	<Collection src="timeStampModel" />
+	<Tab id="historyTab">
+		<Window id="historyWindow">
+			<TableView id="tableview" dataCollection="timeStampModel">
+				<TableViewRow id="row" title="{total}"/>
+  			</TableView>
+		</Window>
+	</Tab>
+</Alloy>
