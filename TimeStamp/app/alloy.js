@@ -12,3 +12,5 @@
 
 //Alloy.createCollection("name der model datei");
 Alloy.Collections.timeStampModel = Alloy.createCollection("timeStampModel");
+/** @namespace Namespace for MYAPP classes and functions. */
+TS = TS || {};

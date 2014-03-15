@@ -1,6 +1,6 @@
 var startButtonClicked = false;
 var timeStampModels = Alloy.Collections.timeStampModel;
-var timeStamp = require('timeStamp');
+//var timeStamp = require('timeStamp');
 
 function startButtonClick(e) {
 
@@ -11,12 +11,12 @@ function startButtonClick(e) {
 		$.startButtonLabel.applyProperties({
 			text : 'STOP'
 		});
-		timeStamp.addTimeStamp(timeStampModels);
+		TS.timeStamp.addTimeStamp(timeStampModels);
 	} else {
 		startButtonClicked = false;
 		$.startButtonLabel.applyProperties({
 			text : 'START'
 		});
-		timeStamp.addTimeStamp(timeStampModels);
+		TS.timeStamp.addTimeStamp(timeStampModels);
 	}
 }
